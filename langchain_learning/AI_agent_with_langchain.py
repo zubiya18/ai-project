@@ -1,4 +1,3 @@
-import os
 from dotenv import load_dotenv
 from langchain.agents import initialize_agent, Tool, AgentType
 from langchain_community.tools.tavily_search import TavilySearchResults
